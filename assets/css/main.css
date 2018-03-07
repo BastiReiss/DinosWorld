@@ -1,0 +1,21 @@
+*{margin: 0;}
+
+#canvas{
+    position: absolute;
+    left: 2%;
+}
+
+#button{
+    position: absolute;
+    top: 95%;
+    left: 45%;
+}
+
+#gameover {
+    position: absolute;
+    left: 32%;
+    top: 25%;
+    font-size: 120px;
+    color: #fff;
+    z-index: 100;
+}

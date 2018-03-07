@@ -1,0 +1,83 @@
+{
+  "canvas": {
+    "element": "canvas",
+    "width": 1600,
+    "height": 800
+  },
+  "game":{
+    "title": "DinosAge",
+    "fps": 120
+  },
+  "time":{
+    "minutesID": "time_minutes",
+    "secondsID": "time_seconds",
+    "minutes": 0,
+    "seconds": 0
+
+  },
+  "model":{
+    "button":{
+      "id" : "button",
+      "labelStart" : "start",
+      "labelStop" : "stop"
+    },
+    "background0":{
+      "width": 1600,
+      "height": 800,
+      "position": { "x": 0, "y": 0, "z": 0 },
+      "vel": 5,
+      "velz": 200
+    },
+    "background1":{
+      "width": 1600,
+      "height": 800,
+      "position": { "x": 1590, "y": 0, "z": 1600 },
+      "vel": 5,
+      "velz": 200
+    },
+    "background2":{
+      "width": 1600,
+      "height": 800,
+      "position": { "x": 3190, "y": 0, "z":3200 },
+      "vel": 5,
+      "velz": 200
+    },
+    "dino":{
+      "width": 200,
+      "height": 200,
+      "position": {"x":300, "y":490, "z": 490},
+      "vel": 0,
+      "velz": 3
+    },
+    "obstacle":{
+      "width": 100,
+      "height": 100,
+      "position": {"x":1200, "y":590, "z": 1600},
+      "vel": 10,
+      "velz": 3
+    }
+  },
+  "view": {
+    "button": {
+
+    },
+    "background0": {
+      "img": "assets/imgs/bg1_low.png"
+    },
+    "background1": {
+      "img": "assets/imgs/bg2_low.png"
+    },
+    "background2": {
+      "img": "assets/imgs/bg3_low.png"
+    },
+    "dino":{
+      "img": "assets/imgs/dino1.png"
+    },
+    "obstacle":{
+      "img": "assets/imgs/obstacle_2.png"
+    }
+  },
+  "control": {
+    "dinoKeyCode": 32
+  }
+}
